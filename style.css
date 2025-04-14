@@ -606,6 +606,12 @@ section {
   top: 25px;
   left: 25px;
 }
+@media (max-width: 492px) {
+  .our-corners {
+    width: 248px;
+    height: 215px;
+  }
+}
 
 .our-button {
   margin-top: 70px;
