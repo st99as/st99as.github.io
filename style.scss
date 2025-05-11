@@ -356,14 +356,20 @@ cursor: url(src/cust-cursor-vec.svg) 2 2, default;
     // min-height: 610px;
     background-repeat: no-repeat;
     background-size: cover;
+    @media (max-height:596px) {
+        height: 460px;
+    }
     @media (max-height:556px) {
-        height: 416px;
+        height: 460px;
     }
     
 }
 .services__all-text {
     padding-top: 300px;
     text-align: center;
+    @media (max-height:735px) {
+        padding-top: 202px;
+    }
     @media (max-height:670px) {
         padding-top: 152px;
     }
@@ -453,8 +459,8 @@ padding: 16px 24px 16px 24px;
 .our {
     margin-top: calc(100vh - 166.59px);
     background: rgb(247, 247, 247);
-    @media (max-height:520px) {
-        margin-top: 352px;
+    @media (max-height:556px) {
+        margin-top: 412px;
     }
 
 }
