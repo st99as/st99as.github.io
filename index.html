@@ -3,464 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="/code-src/zero.css">
     <link rel="stylesheet" href="/code-src/slider-swiper/swiper-min-css.css">
     <link rel="stylesheet" href="/code-src/wow/wow-animate.css">
     <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header" id="header">
-        <div class="container header__container">
-            <div class="header__wrapper">
-                <div class="header__first-line">
-                    <div class="header__first-line-container">
-                        <div class="header__first-line-phone-and-mail">
-                            <div class="header__first-line-phone">
-                                <img src="src/Phone.svg" alt="" class="header__first-line-phone-img">
-                                <div class="header__first-line-phone-text">+7 (922) 022-94-82</div>
-                            </div>
-                            <div class="header__first-line-mail">
-                                <img src="src/mail.svg" alt="" class="header__first-line-mail-img">
-                                <div class="header__first-line-mail-text">janis62@yahoo.com</div>
-                            </div>
-                        </div>
-                        <div class="header__first-line-text">Заказать звонок</div>
-                    </div>
-                </div>
-                <div class="header__second-line">
-                    <div class="header__second-line-container">
-                        <div class="logo-wrapper">
-                            <div class="logo"><span>Правозащитник</span><br> Юридическая компания</div>
-                        </div>
-
-
-                        <div class="menu__icon icon-menu">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                    </div>
-                                        <nav class="menu">
-                                            <ul class="header-nav menu__list">
-                                                <li class="header-nav-item menu-list__item"><a href="" class="header-nav-item-a menu-list__link">Услуги</a></li>
-                                                <li class="header-nav-item menu-list__item"><a href="" class="header-nav-item-a menu-list__link">О компании</a></li>
-                                                <li class="header-nav-item menu-list__item"><a href="" class="header-nav-item-a menu-list__link">Наши юристы</a></li>
-                                                <li class="header-nav-item menu-list__item"><a href="" class="header-nav-item-a menu-list__link">Отзывы</a></li>
-                                                <li class="header-nav-item menu-list__item"><a href="" class="header-nav-item-a menu-list__link">Новости</a></li>
-                                                <li class="header-nav-item menu-list__item"><a href="" class="header-nav-item-a menu-list__link">Контакты</a></li>
-                                            </ul>
-                                        </nav>
-                    </div>
-                </div>
+        <div class="container">
+            <div class="menu__icon icon-menu">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
+            <nav class="menu">
+                <img src="src/portfolio-logo-white.png" alt="логотип" class="Portfolio-logo">
+                <ul class="menu__list">
+                    <li class="menu-list__item">
+                        <a href="#projects-head" class="menu-list__link">Проекты</a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#technology-head" class="menu-list__link">Технологии</a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#contact-head" class="menu-list__link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
-        <section class="services">
+        <section class="hello">
             <div class="container">
-                <div class="services__all-text">
-                    <p class="services-title">Оказываем весь комплекс</p>
-                    <h1 class="services-subtitle">Юридических услуг</h1>
-                    <div class="services-text">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение.</div>
+                <div class="hello__wrapper">
+                    <div class="hello__text-zone">
+                        <h1 class="hello__title">Привет! Я - начинающий фронтенд разработчик и это моё портфолио.</h1>
+                        <a class="button__wrapper" href="#projects-head"><button class="button hello__button">к проектам</button></a>
+                    </div>                   
+                    <div class="hello__image-zone"><img src="src/portfolio-me1.png" alt="изображение" class="hello__img"></div>
                 </div>
-                <button class="button services-button">Наши услуги</button>
             </div>
         </section>
-        <section class="our">
+        <section id="technology-head" class="technology">
             <div class="container">
-                <h2 class="our__title title">Наши услуги</h2>
-                <h3 class="subtitle our__subtitle">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона</h3>
-                
-                <div class="our__items our__items-fhd">
-                        <div class="our__item">
-                            <div class="our__item-wrapper">
-                                <img src="src/Hover-border.png" alt="" class="our-corners">
-                                <svg  width="29.166504" height="29.166626" viewBox="0 0 29.1665 29.1666" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <defs/>
-                                    <path class="our__item-img" id="Vector" d="M26.25 2.91L26.25 20.41L8.75 20.41L8.75 2.91L26.25 2.91ZM26.25 0L8.75 0C7.14 0 5.83 1.31 5.83 2.91L5.83 20.41C5.83 22.02 7.14 23.33 8.75 23.33L26.25 23.33C27.85 23.33 29.16 22.02 29.16 20.41L29.16 2.91C29.16 1.31 27.85 0 26.25 0ZM15.26 17.5L10.2 12.39L12.25 10.33L15.26 13.37L22.75 5.83L24.79 7.88L15.26 17.5ZM2.91 5.83L0 5.83L0 26.25C0 27.85 1.31 29.16 2.91 29.16L23.33 29.16L23.33 26.25L2.91 26.25L2.91 5.83Z" fill="#4F8FF0" fill-opacity="1.000000" fill-rule="nonzero"/>
-                                </svg>  
-                                <div class="our__item-title">Банкротство физических лиц</div>
-                                <div class="our__item-text">Процедуру банкротства физических лиц в России регулирует закон «О несостоятельности (банкротстве)».</div>
-                            </div>
-                        </div>
-                        <div class="our__item">
-                            <div class="our__item-wrapper">
-                                <img src="src/Hover-border.png" alt="" class="our-corners">
-                                <svg  width="29.166504" height="29.166626" viewBox="0 0 29.1665 29.1666" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <defs/>
-                                    <path class="our__item-img" id="Vector" d="M26.25 2.91L26.25 20.41L8.75 20.41L8.75 2.91L26.25 2.91ZM26.25 0L8.75 0C7.14 0 5.83 1.31 5.83 2.91L5.83 20.41C5.83 22.02 7.14 23.33 8.75 23.33L26.25 23.33C27.85 23.33 29.16 22.02 29.16 20.41L29.16 2.91C29.16 1.31 27.85 0 26.25 0ZM15.26 17.5L10.2 12.39L12.25 10.33L15.26 13.37L22.75 5.83L24.79 7.88L15.26 17.5ZM2.91 5.83L0 5.83L0 26.25C0 27.85 1.31 29.16 2.91 29.16L23.33 29.16L23.33 26.25L2.91 26.25L2.91 5.83Z" fill="#4F8FF0" fill-opacity="1.000000" fill-rule="nonzero"/>
-                                </svg>                            
-                                <div class="our__item-title">Банкротство физических лиц</div>
-                                <div class="our__item-text">Процедуру банкротства физических лиц в России регулирует закон «О несостоятельности (банкротстве)».</div>
-                            </div>
-                        </div>
-                        <div class="our__item">
-                            <div class="our__item-wrapper">
-                                <img src="src/Hover-border.png" alt="" class="our-corners">
-                                <svg  width="29.166504" height="29.166626" viewBox="0 0 29.1665 29.1666" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <defs/>
-                                    <path class="our__item-img" id="Vector" d="M26.25 2.91L26.25 20.41L8.75 20.41L8.75 2.91L26.25 2.91ZM26.25 0L8.75 0C7.14 0 5.83 1.31 5.83 2.91L5.83 20.41C5.83 22.02 7.14 23.33 8.75 23.33L26.25 23.33C27.85 23.33 29.16 22.02 29.16 20.41L29.16 2.91C29.16 1.31 27.85 0 26.25 0ZM15.26 17.5L10.2 12.39L12.25 10.33L15.26 13.37L22.75 5.83L24.79 7.88L15.26 17.5ZM2.91 5.83L0 5.83L0 26.25C0 27.85 1.31 29.16 2.91 29.16L23.33 29.16L23.33 26.25L2.91 26.25L2.91 5.83Z" fill="#4F8FF0" fill-opacity="1.000000" fill-rule="nonzero"/>
-                                </svg>  
-                                <div class="our__item-title">Банкротство физических лиц</div>
-                                <div class="our__item-text">Процедуру банкротства физических лиц в России регулирует закон «О несостоятельности (банкротстве)».</div>
-                            </div>
-                        </div>
-                        <div class="our__item">
-                            <div class="our__item-wrapper">
-                                <img src="src/Hover-border.png" alt="" class="our-corners">
-                                <svg  width="29.166504" height="29.166626" viewBox="0 0 29.1665 29.1666" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <defs/>
-                                    <path class="our__item-img" id="Vector" d="M26.25 2.91L26.25 20.41L8.75 20.41L8.75 2.91L26.25 2.91ZM26.25 0L8.75 0C7.14 0 5.83 1.31 5.83 2.91L5.83 20.41C5.83 22.02 7.14 23.33 8.75 23.33L26.25 23.33C27.85 23.33 29.16 22.02 29.16 20.41L29.16 2.91C29.16 1.31 27.85 0 26.25 0ZM15.26 17.5L10.2 12.39L12.25 10.33L15.26 13.37L22.75 5.83L24.79 7.88L15.26 17.5ZM2.91 5.83L0 5.83L0 26.25C0 27.85 1.31 29.16 2.91 29.16L23.33 29.16L23.33 26.25L2.91 26.25L2.91 5.83Z" fill="#4F8FF0" fill-opacity="1.000000" fill-rule="nonzero"/>
-                                </svg>  
-                                <div class="our__item-title">Банкротство физических лиц</div>
-                                <div class="our__item-text">Процедуру банкротства физических лиц в России регулирует закон «О несостоятельности (банкротстве)».</div>
-                            </div>
-                        </div>
-                        <div class="our__item">
-                            <div class="our__item-wrapper">
-                                <img src="src/Hover-border.png" alt="" class="our-corners">
-                                <svg  width="29.166504" height="29.166626" viewBox="0 0 29.1665 29.1666" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <defs/>
-                                    <path class="our__item-img" id="Vector" d="M26.25 2.91L26.25 20.41L8.75 20.41L8.75 2.91L26.25 2.91ZM26.25 0L8.75 0C7.14 0 5.83 1.31 5.83 2.91L5.83 20.41C5.83 22.02 7.14 23.33 8.75 23.33L26.25 23.33C27.85 23.33 29.16 22.02 29.16 20.41L29.16 2.91C29.16 1.31 27.85 0 26.25 0ZM15.26 17.5L10.2 12.39L12.25 10.33L15.26 13.37L22.75 5.83L24.79 7.88L15.26 17.5ZM2.91 5.83L0 5.83L0 26.25C0 27.85 1.31 29.16 2.91 29.16L23.33 29.16L23.33 26.25L2.91 26.25L2.91 5.83Z" fill="#4F8FF0" fill-opacity="1.000000" fill-rule="nonzero"/>
-                                </svg>  
-                                <div class="our__item-title">Банкротство физических лиц</div>
-                                <div class="our__item-text">Процедуру банкротства физических лиц в России регулирует закон «О несостоятельности (банкротстве)».</div>
-                            </div>
-                        </div>
-                        <div class="our__item">
-                            <div class="our__item-wrapper">
-                                <img src="src/Hover-border.png" alt="" class="our-corners">
-                                <svg  width="29.166504" height="29.166626" viewBox="0 0 29.1665 29.1666" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <defs/>
-                                    <path class="our__item-img" id="Vector" d="M26.25 2.91L26.25 20.41L8.75 20.41L8.75 2.91L26.25 2.91ZM26.25 0L8.75 0C7.14 0 5.83 1.31 5.83 2.91L5.83 20.41C5.83 22.02 7.14 23.33 8.75 23.33L26.25 23.33C27.85 23.33 29.16 22.02 29.16 20.41L29.16 2.91C29.16 1.31 27.85 0 26.25 0ZM15.26 17.5L10.2 12.39L12.25 10.33L15.26 13.37L22.75 5.83L24.79 7.88L15.26 17.5ZM2.91 5.83L0 5.83L0 26.25C0 27.85 1.31 29.16 2.91 29.16L23.33 29.16L23.33 26.25L2.91 26.25L2.91 5.83Z" fill="#4F8FF0" fill-opacity="1.000000" fill-rule="nonzero"/>
-                                </svg>  
-                                <div class="our__item-title">Банкротство физических лиц</div>
-                                <div class="our__item-text">Процедуру банкротства физических лиц в России регулирует закон «О несостоятельности (банкротстве)».</div>
-                            </div>
-                        </div>
-                </div>
-
-                <div class="our__items swiper-container mySwiper-our swiper-container-our">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide our__item">
-                            <div class="our__item-wrapper ">
-                                <img src="src/Hover-border.png" alt="" class="our-corners">
-                                <svg  width="29.166504" height="29.166626" viewBox="0 0 29.1665 29.1666" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <defs/>
-                                    <path class="our__item-img" id="Vector" d="M26.25 2.91L26.25 20.41L8.75 20.41L8.75 2.91L26.25 2.91ZM26.25 0L8.75 0C7.14 0 5.83 1.31 5.83 2.91L5.83 20.41C5.83 22.02 7.14 23.33 8.75 23.33L26.25 23.33C27.85 23.33 29.16 22.02 29.16 20.41L29.16 2.91C29.16 1.31 27.85 0 26.25 0ZM15.26 17.5L10.2 12.39L12.25 10.33L15.26 13.37L22.75 5.83L24.79 7.88L15.26 17.5ZM2.91 5.83L0 5.83L0 26.25C0 27.85 1.31 29.16 2.91 29.16L23.33 29.16L23.33 26.25L2.91 26.25L2.91 5.83Z" fill="#4F8FF0" fill-opacity="1.000000" fill-rule="nonzero"/>
-                                </svg>  
-                                <div class="our__item-title">Банкротство физических лиц</div>
-                                <div class="our__item-text">Процедуру банкротства физических лиц в России регулирует закон «О несостоятельности (банкротстве)».</div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide our__item">
-                            <div class="our__item-wrapper">
-                                <img src="src/Hover-border.png" alt="" class="our-corners">
-                                <svg  width="29.166504" height="29.166626" viewBox="0 0 29.1665 29.1666" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <defs/>
-                                    <path class="our__item-img" id="Vector" d="M26.25 2.91L26.25 20.41L8.75 20.41L8.75 2.91L26.25 2.91ZM26.25 0L8.75 0C7.14 0 5.83 1.31 5.83 2.91L5.83 20.41C5.83 22.02 7.14 23.33 8.75 23.33L26.25 23.33C27.85 23.33 29.16 22.02 29.16 20.41L29.16 2.91C29.16 1.31 27.85 0 26.25 0ZM15.26 17.5L10.2 12.39L12.25 10.33L15.26 13.37L22.75 5.83L24.79 7.88L15.26 17.5ZM2.91 5.83L0 5.83L0 26.25C0 27.85 1.31 29.16 2.91 29.16L23.33 29.16L23.33 26.25L2.91 26.25L2.91 5.83Z" fill="#4F8FF0" fill-opacity="1.000000" fill-rule="nonzero"/>
-                                </svg>                            
-                                <div class="our__item-title">Банкротство физических лиц</div>
-                                <div class="our__item-text">Процедуру банкротства физических лиц в России регулирует закон «О несостоятельности (банкротстве)».</div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide our__item">
-                            <div class="our__item-wrapper">
-                                <img src="src/Hover-border.png" alt="" class="our-corners">
-                                <svg  width="29.166504" height="29.166626" viewBox="0 0 29.1665 29.1666" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <defs/>
-                                    <path class="our__item-img" id="Vector" d="M26.25 2.91L26.25 20.41L8.75 20.41L8.75 2.91L26.25 2.91ZM26.25 0L8.75 0C7.14 0 5.83 1.31 5.83 2.91L5.83 20.41C5.83 22.02 7.14 23.33 8.75 23.33L26.25 23.33C27.85 23.33 29.16 22.02 29.16 20.41L29.16 2.91C29.16 1.31 27.85 0 26.25 0ZM15.26 17.5L10.2 12.39L12.25 10.33L15.26 13.37L22.75 5.83L24.79 7.88L15.26 17.5ZM2.91 5.83L0 5.83L0 26.25C0 27.85 1.31 29.16 2.91 29.16L23.33 29.16L23.33 26.25L2.91 26.25L2.91 5.83Z" fill="#4F8FF0" fill-opacity="1.000000" fill-rule="nonzero"/>
-                                </svg>  
-                                <div class="our__item-title">Банкротство физических лиц</div>
-                                <div class="our__item-text">Процедуру банкротства физических лиц в России регулирует закон «О несостоятельности (банкротстве)».</div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide our__item">
-                            <div class="our__item-wrapper">
-                                <img src="src/Hover-border.png" alt="" class="our-corners">
-                                <svg  width="29.166504" height="29.166626" viewBox="0 0 29.1665 29.1666" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <defs/>
-                                    <path class="our__item-img" id="Vector" d="M26.25 2.91L26.25 20.41L8.75 20.41L8.75 2.91L26.25 2.91ZM26.25 0L8.75 0C7.14 0 5.83 1.31 5.83 2.91L5.83 20.41C5.83 22.02 7.14 23.33 8.75 23.33L26.25 23.33C27.85 23.33 29.16 22.02 29.16 20.41L29.16 2.91C29.16 1.31 27.85 0 26.25 0ZM15.26 17.5L10.2 12.39L12.25 10.33L15.26 13.37L22.75 5.83L24.79 7.88L15.26 17.5ZM2.91 5.83L0 5.83L0 26.25C0 27.85 1.31 29.16 2.91 29.16L23.33 29.16L23.33 26.25L2.91 26.25L2.91 5.83Z" fill="#4F8FF0" fill-opacity="1.000000" fill-rule="nonzero"/>
-                                </svg>  
-                                <div class="our__item-title">Банкротство физических лиц</div>
-                                <div class="our__item-text">Процедуру банкротства физических лиц в России регулирует закон «О несостоятельности (банкротстве)».</div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide our__item">
-                            <div class="our__item-wrapper">
-                                <img src="src/Hover-border.png" alt="" class="our-corners">
-                                <svg  width="29.166504" height="29.166626" viewBox="0 0 29.1665 29.1666" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <defs/>
-                                    <path class="our__item-img" id="Vector" d="M26.25 2.91L26.25 20.41L8.75 20.41L8.75 2.91L26.25 2.91ZM26.25 0L8.75 0C7.14 0 5.83 1.31 5.83 2.91L5.83 20.41C5.83 22.02 7.14 23.33 8.75 23.33L26.25 23.33C27.85 23.33 29.16 22.02 29.16 20.41L29.16 2.91C29.16 1.31 27.85 0 26.25 0ZM15.26 17.5L10.2 12.39L12.25 10.33L15.26 13.37L22.75 5.83L24.79 7.88L15.26 17.5ZM2.91 5.83L0 5.83L0 26.25C0 27.85 1.31 29.16 2.91 29.16L23.33 29.16L23.33 26.25L2.91 26.25L2.91 5.83Z" fill="#4F8FF0" fill-opacity="1.000000" fill-rule="nonzero"/>
-                                </svg>  
-                                <div class="our__item-title">Банкротство физических лиц</div>
-                                <div class="our__item-text">Процедуру банкротства физических лиц в России регулирует закон «О несостоятельности (банкротстве)».</div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide our__item">
-                            <div class="our__item-wrapper">
-                                <img src="src/Hover-border.png" alt="" class="our-corners">
-                                <svg  width="29.166504" height="29.166626" viewBox="0 0 29.1665 29.1666" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <defs/>
-                                    <path class="our__item-img" id="Vector" d="M26.25 2.91L26.25 20.41L8.75 20.41L8.75 2.91L26.25 2.91ZM26.25 0L8.75 0C7.14 0 5.83 1.31 5.83 2.91L5.83 20.41C5.83 22.02 7.14 23.33 8.75 23.33L26.25 23.33C27.85 23.33 29.16 22.02 29.16 20.41L29.16 2.91C29.16 1.31 27.85 0 26.25 0ZM15.26 17.5L10.2 12.39L12.25 10.33L15.26 13.37L22.75 5.83L24.79 7.88L15.26 17.5ZM2.91 5.83L0 5.83L0 26.25C0 27.85 1.31 29.16 2.91 29.16L23.33 29.16L23.33 26.25L2.91 26.25L2.91 5.83Z" fill="#4F8FF0" fill-opacity="1.000000" fill-rule="nonzero"/>
-                                </svg>  
-                                <div class="our__item-title">Банкротство физических лиц</div>
-                                <div class="our__item-text">Процедуру банкротства физических лиц в России регулирует закон «О несостоятельности (банкротстве)».</div>
-                            </div>
-                        </div>
+                <div class="technology__wrapper">
+                    <h2 class="title technology__title">Для создания сайтов я использую:</h2>
+                    <div class="technology__items">
+                        <div class="technology__item"><img src="src/portfolio-item-html5.png" alt="картинка-технологии" class="technology__item-img technology__item-img1"><h4 class="technology__item-text">Html 5</h4></div>
+                        <div class="technology__item"><img src="src/portfolio-item-css3.png" alt="картинка-технологии" class="technology__item-img technology__item-img2"><h4 class="technology__item-text">CSS 3</h4></div>
+                        <div class="technology__item"><img src="src/portfolio-item-js.png" alt="картинка-технологии" class="technology__item-img technology__item-img3"><h4 class="technology__item-text">Javascript</h4></div>
+                        <div class="technology__item"><img src="src/GitHub-logo.png" alt="картинка-технологии" class="technology__item-img technology__item-img4"><h4 class="technology__item-text">Git Hub</h4></div>
+                        <div class="technology__item"><img src="src/portfolio-item-vscode.png" alt="картинка-технологии" class="technology__item-img technology__item-img5"><h4 class="technology__item-text">Vs code</h4></div>
+                        <div class="technology__item"><img src="src/portfolio-item-pixco.png" alt="картинка-технологии" class="technology__item-img technology__item-img6"><h4 class="technology__item-text">Pixco</h4></div>
+                        <div class="technology__item"><img src="src/portfolio-item-jq.png" alt="картинка-технологии" class="technology__item-img technology__item-img7"><h4 class="technology__item-text">Jquery</h4></div>
+                        <div class="technology__item"><img src="src/portfolio-sass-logo.png" alt="картинка-технологии" class="technology__item-img technology__item-img8"><h4 class="technology__item-text">Sass</h4></div>
                     </div>
+                    <h2 class="technology__title title">Также применяю другие технологии:</h2>
+                    <ul class="technology__list">
+                        <li class="technology__list-item">
+                            <img src="src/portfolio-check.png" alt="элемент-списка" class="technology__list-item-img"><div class="technology__list-item-text">Методологию БЭМ, семантическую вёрстку.</div>
+                        </li>
+                        <li class="technology__list-item">
+                            <img src="src/portfolio-check.png" alt="элемент-списка" class="technology__list-item-img"><div class="technology__list-item-text">Сжимаю изображения без потери качества, перед вставкой в макет.</div>
+                        </li>
+                        <li class="technology__list-item">
+                            <img src="src/portfolio-check.png" alt="элемент-списка" class="technology__list-item-img"><div class="technology__list-item-text">Использую готовые решения для создания динамических элементов на странице, например, слайдеры.</div>
+                        </li>
+                        <li class="technology__list-item">
+                            <img src="src/portfolio-check.png" alt="элемент-списка" class="technology__list-item-img"><div class="technology__list-item-text">Генерирую нужные для макетов изображения и дорабатываю их в фотошопе.</div>
+                        </li>
+                        <li class="technology__list-item">
+                            <img src="src/portfolio-check.png" alt="элемент-списка" class="technology__list-item-img"><div class="technology__list-item-text">Адаптирую вёрстку для корректного отображения в актуальных браузерах.</div>
+                        </li>
+                    </ul>
                 </div>
-                <button class="button our-button">Все услуги</button>
             </div>
         </section>
-    <section class="company">
-        <div class="container">
-            <div class="company__wrapper">
-                <div class="company__left-side">
-                    <h2 class="title company-title">Юридическая компания <span>Правозащитник</span></h2>
-                    <h3 class="subtitle company-subtitle">
-                        Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение. <br><br>
-
-    Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь. Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки, скрытой в середине абзаца. <br><br>
-
-    За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).
-                    </h3>
-                    <div class="company__buttons">
-                        <button class="button company-button">История компании</button>
-                        <button class="button company-button button-gray">Сертификаты</button>
-                    </div>
-                </div>
-                <div class="company__right-side">
-                    <img src="src/company.jpeg" alt="" class="company-img">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="urists">
-        <div class="container">
-            <h2 class="title urists-title">Наши юристы</h2>
-            <h3 class="subtitle urists-subtitle">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона</h3>
-            <div class="urists__items swiper-container mySwiper mySwiper-urists">
-                <div class="swiper-wrapper swiper-wrapper-urists">
-                    <div class="urists__item swiper-slide">
-                        <img src="src/urist1.jpeg" alt="" class="urists__item-img">
-                        <div class="urists__item-more">
-                            <img src="src/corners--bluepng.png" alt="" class="urists__more-corners">
-                            <div class="urists__more-name">Горюнова Полина Алексеевна</div>
-                            <div class="urists__more-position">Юрист международного права</div>
-                            <div class="urists__more-about">Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь.</div>
-                            <div class="urists__more-expirience">12 лет юридической практики</div>
+        <section id="projects-head" class="projects">
+            <div class="container">
+                <div class="projects__wrapper">
+                    <h2 class="projects__title title">Мои проекты</h2>
+                    <div class="projects__items">
+                        <div class="projects__item">
+                            <img src="src/portfolio-project1.png" alt="изображение-с-сайта" class="projects__item-img">
+                            <img src="src/portfolio-site-pan.gif" alt="" loading="lazy" class="project__item-lazy-img project__item-lazy-img-pan">
+                            <a href="/indexpan.html" class="button__wrapper"><button class="button projects__item-button">Перейти на сайт</button></a>
                         </div>
-                    </div>
-                    <div class="urists__item swiper-slide">
-                        <img src="src/urist2.jpeg" alt="" class="urists__item-img">
-                        <div class="urists__item-more">
-                            <img src="src/corners--bluepng.png" alt="" class="urists__more-corners">
-                            <div class="urists__more-name">Миронов Александр Германович</div>
-                            <div class="urists__more-position">Кредитный адвокат, банковский юрист</div>
-                            <div class="urists__more-about">Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь.</div>
-                            <div class="urists__more-expirience">12 лет юридической практики</div>
-                        </div>
-                    </div>
-                    <div class="urists__item swiper-slide">
-                        <img src="src/urist3.jpg" alt="" class="urists__item-img urists__item-img3">
-                        <div class="urists__item-more">
-                            <img src="src/corners--bluepng.png" alt="" class="urists__more-corners">
-                            <div class="urists__more-name">Архипов Максим Константинович</div>
-                            <div class="urists__more-position">Юридический консультант</div>
-                            <div class="urists__more-about">Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь.</div>
-                            <div class="urists__more-expirience">12 лет юридической практики</div>
-                        </div>
-                    </div>
-                    <div class="urists__item swiper-slide">
-                        <img src="src/urist4.jpeg" alt="" class="urists__item-img">
-                        <div class="urists__item-more">
-                            <img src="src/corners--bluepng.png" alt="" class="urists__more-corners">
-                            <div class="urists__more-name">Архипов Максим Константинович</div>
-                            <div class="urists__more-position">Корпоративный юрист</div>
-                            <div class="urists__more-about">Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь.</div>
-                            <div class="urists__more-expirience">12 лет юридической практики</div>
+                        <div class="projects__item">
+                            <img src="src/portfolio-project2.png" alt="изображение-с-сайта" class="projects__item-img">
+                            <img src="src/portfolio-site-urist.gif" alt="" loading="lazy" class="project__item-lazy-img project__item-lazy-img-urist">
+                            <a href="/indexurist.html" class="button__wrapper"><button class="button projects__item-button">Перейти на сайт</button></a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="feedback">
-        <div class="container">
-            <div class="feedback__wrapper">
-                <div class="feedback__top">
-                    <h2 class="title feedback-title">Что о нас говорят клиенты</h2>
-                    <img src="src/feedback-blue-lines.png" alt="" class="feedback__top-img">
-                </div>
-                <div class="feedback__items swiper-container mySwiper mySwiper-feedback">
-                    <div class="swiper-wrapper swiper-wrapper-feedback">
-                        <div class="feedback-item swiper-slide">
-                            <div class="feedback-item-first-line">
-                                <div class="feedback-item-first-line-left">
-                                    <img src="src/feedback-av1.png" alt="" class="feedback-item-img">
-                                    <div class="feedback-item-company">ООО “ИТ Консалтинг” <br> <span>Логинова Анастасия</span></div>
-                                </div>
-                                <img src="src/feedback-feather.png" class="feedback-item-feather">
+        </section>
+        <section id="contact-head" class="contact">
+            <div class="container">
+                <div class="contact__wrapper">
+                    <h2 class="contact__title title">Связаться со мной</h2>
+                    <div class="contact__items">
+                        <div class="contact__left">
+                            <div class="contact__item">
+                                <img src="src/telegram.png" target="_blank" alt="иконка-телеграмм" class="contact__item-img">
+                                <a href="https://t.me/Vlad_s_e" class="contact__item-link">Телеграмм: t.me/Vlad_s_e</a>
                             </div>
-                            <div class="feedback-item-second-line">
-                                Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки, скрытой в середине абзаца. Также все другие известные генераторы Lorem Ipsum используют один и тот же текст, который они просто повторяют, пока не достигнут нужный объём.
+                            <div class="contact__item">
+                                <img src="src/mail.png" alt="иконка-почта" class="contact__item-img">
+                                <a href="mailto:Se.vl.99@yandex.ru" target="_blank" class="contact__item-link">Почта: Se.vl.99@yandex.ru</a>
                             </div>
                         </div>
-                        <div class="feedback-item swiper-slide">
-                            <div class="feedback-item-first-line">
-                                <div class="feedback-item-first-line-left">
-                                    <img src="src/feedback-av2.png" alt="" class="feedback-item-img">
-                                    <div class="feedback-item-company">АО “ПРОМАРШ” <br> <span>Макаров Сергей</span></div>
-                                </div>
-                                <img src="src/feedback-feather.png" class="feedback-item-feather">
-                            </div>
-                            <div class="feedback-item-second-line">
-                                Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов ... 
-                            </div>
-                        </div>
-                        <div class="feedback-item swiper-slide">
-                            <div class="feedback-item-first-line">
-                                <div class="feedback-item-first-line-left">
-                                    <img src="src/feedback-av1.png" alt="" class="feedback-item-img">
-                                    <div class="feedback-item-company">ООО “ИТ Консалтинг” <br> <span>Логинова Анастасия</span></div>
-                                </div>
-                                <img src="src/feedback-feather.png" class="feedback-item-feather">
-                            </div>
-                            <div class="feedback-item-second-line">
-                                Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки, скрытой в середине абзаца. Также все другие известные генераторы Lorem Ipsum используют один и тот же текст, который они просто повторяют, пока не достигнут нужный объём.
-                            </div>
-                        </div>
-                        <div class="feedback-item swiper-slide">
-                            <div class="feedback-item-first-line">
-                                <div class="feedback-item-first-line-left">
-                                    <img src="src/feedback-av2.png" alt="" class="feedback-item-img">
-                                    <div class="feedback-item-company">АО “ПРОМАРШ” <br> <span>Макаров Сергей</span></div>
-                                </div>
-                                <img src="src/feedback-feather.png" class="feedback-item-feather">
-                            </div>
-                            <div class="feedback-item-second-line">
-                                Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов ... 
-                            </div>
-                        </div>
+                        <div class="contact__right"><img src="src/portfolio-me2.png" alt="изображение" class="contact__right-img"></div>
                     </div>
                 </div>
-                <div class="company__buttons">
-                    <button class="button company-button">Все отзывы</button>
-                    <button class="button company-button button-gray">Написать отзыв</button>
-                </div>
             </div>
-        </div>
-    </section>
-    <section class="goods">
-        <div class="container">
-            <div class="goods__wrapper">
-                <h2 class="title goods-title">Полезные материалы</h2>
-                <h3 class="goods-subtitile subtitle">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона</h3>
-                <div class="goods__items swiper-container mySwiper mySwiper-goods">
-                    <div class="swiper-wrapper">
-                        <div class="goods__item swiper-slide">
-                            <div class="goods__item-images">
-                                <img src="src/goods1.jpeg" class="goods__item-main-img">
-                                <div class="gradient"></div>
-                                <img src="src/Hover-border-goods.png" alt="" class="goods__corners">
-                                <img src="src/eye.png" alt="" class="goods__item-eye">
-                            </div>
-                            <div class="goods__item-all-text">
-                                <div class="goods__item-title">Воистину радостный звук: шёпот бессменных лидеров</div>
-                                <div class="goods__item-date">24 апр. 2023 г.</div>
-                                <div class="goods__item-text">Предварительные выводы неутешительны: синтетическое тестирование, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для экономической целесообразности принимаемых решений. </div>
-                            </div>
-                        </div>
-                        <div class="goods__item swiper-slide">
-                            <div class="goods__item-images">
-                                <img src="src/goods2.jpeg" class="goods__item-main-img">
-                                <div class="gradient"></div>
-                                <img src="src/Hover-border-goods.png" alt="" class="goods__corners">
-                                <img src="src/eye.png" alt="" class="goods__item-eye">
-                            </div>
-                            <div class="goods__item-all-text">
-                                <div class="goods__item-title">Воистину радостный звук: шёпот бессменных лидеров</div>
-                                <div class="goods__item-date">24 апр. 2023 г.</div>
-                                <div class="goods__item-text">Предварительные выводы неутешительны: синтетическое тестирование, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для экономической целесообразности принимаемых решений. </div>
-                            </div>
-                        </div>
-                        <div class="goods__item swiper-slide">
-                            <div class="goods__item-images">
-                                <img src="src/goods3.jpeg" class="goods__item-main-img">
-                                <div class="gradient"></div>
-                                <img src="src/Hover-border-goods.png" alt="" class="goods__corners">
-                                <img src="src/eye.png" alt="" class="goods__item-eye">
-                            </div>
-                            <div class="goods__item-all-text">
-                                <div class="goods__item-title">Воистину радостный звук: шёпот бессменных лидеров</div>
-                                <div class="goods__item-date">24 апр. 2023 г.</div>
-                                <div class="goods__item-text">Предварительные выводы неутешительны: синтетическое тестирование, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для экономической целесообразности принимаемых решений. </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="button goods-button">Все новости</button>
-            </div>
-        </div>
-    </section>
+        </section>
     </main>
     <footer class="footer" id="footer">
         <div class="container">
             <div class="footer__wrapper">
-                <div class="footer__first-line">
-                    <div class="logo-wrapper">
-                        <div class="logo"><span>Правозащитник</span><br> Юридическая компания</div>
-                    </div>
-                    <div class="footer-first-line-text">Предварительные выводы неутешительны: синтетическое тестирование, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для экономической целесообразности принимаемых решений.</div>
-                </div>
-                <div class="footer-line"></div>
-                <div class="footer__second-line">
-                    <div class="footer-icons-items">
-                        <div class="footer-icons-item">
-                            <img src="src/foot1.jpeg" alt="" class="footer-icons-img">
-                            <div class="footer-icons-text">Наш адрес <br> <span>г. Одинцово, пр. Будапештсткая, 40</span></div>
-                        </div>
-                        <div class="footer-icons-item">
-                            <img src="src/foot2.jpeg" alt="" class="footer-icons-img">
-                            <div class="footer-icons-text">Наш адрес <br> <span>г. Одинцово, пр. Будапештсткая, 40</span></div>
-                        </div>
-                        <div class="footer-icons-item">
-                            <img src="src/foot3.jpeg" alt="" class="footer-icons-img">
-                            <div class="footer-icons-text">Наш адрес <br> <span>г. Одинцово, пр. Будапештсткая, 40</span></div>
-                        </div>
-                    </div>
-                    <div class="footer-links">
-                        <a class="footer-link">Услуги</a>
-                        <a class="footer-link">О компании</a>
-                        <a class="footer-link">Сертификаты</a>
-                        <a class="footer-link">Отзывы</a>
-                        <a class="footer-link">Полезные материалы</a>
-                        <a class="footer-link">Благотворительность</a>
-                    </div>
-                    <div class="footer-ps">
-                        <div class="footer-ps-top">
-                            <img src="src/foot-main-ur.png" alt="" class="footer-ps-img">
-                            <div class="footer-ps-text">Миронов Александр <br> <span>Ведущий юрист</span></div>
-                        </div>
-                        <div class="footer-ps-text-2">Есть над чем задуматься: тщательные исследования конкурентов разоблачены. Идейные соображения высшего порядка, а также перспективное планирование играет </div>
-                        <button class="button footer-ps-button">Задать вопрос юристу</button>
-                    </div>
-                </div>
+                <img class="Portfolio-logo " src="src/portfolio-logo-white.png" alt="логотип">
+                <div class="footer__text">2025</div>
             </div>
         </div>
     </footer>
-    <div class="footer__copy">
-        <div class="container">
-            <div class="footer__copy-wrapper">
-                <div class="footer__copy-text">Все права защищены, 2023</div>
-                <div class="footer__copy-text">Политика обработки персональных данных</div>
-            </div>
-        </div> 
-    </div>
 <script src="/code-src/code.jquery.com_jquery-3.7.0.js"></script>
 <script src="/code-src/jquery.maskedinput.min.js"></script>
 <script src="/code-src/slider-swiper/swiper-min-js.js"></script>
