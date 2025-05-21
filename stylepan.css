@@ -1179,6 +1179,7 @@ a{
   }
   .icon-menu._active {
     position: fixed;
+    
   }
   .icon-menu._active span {
     -webkit-transform: scale(0);
@@ -1190,12 +1191,14 @@ a{
         -ms-transform: rotate(-45deg);
             transform: rotate(-45deg);
     top: calc(50% - 1px);
+    background-color: #ffffff;
   }
   .icon-menu._active span:last-child {
     -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
             transform: rotate(45deg);
     bottom: calc(50% - 1px);
+    background-color: #ffffff;
   }
   @media (max-width: 403px) {
     .icon-menu {
