@@ -464,6 +464,10 @@ h2 {
   }
 }
 
+.projects__item-images-wrapper {
+  width: 100%;
+}
+
 .projects__item {
   position: relative;
   border: rgb(53, 78, 90) 3px solid;
