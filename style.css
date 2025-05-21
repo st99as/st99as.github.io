@@ -464,10 +464,6 @@ h2 {
   }
 }
 
-.projects__item-images-wrapper {
-  width: 100%;
-}
-
 .projects__item {
   position: relative;
   border: rgb(53, 78, 90) 3px solid;
@@ -489,12 +485,13 @@ h2 {
     width: auto;
   }
 }
-.projects__item:hover .projects__item-img {
-  display: none;
-}
 .projects__item:hover .project__item-lazy-img {
-  display: block;
+  z-index: 2;
+}
+
+.projects__item-images-wrapper {
   width: 100%;
+  position: relative;
 }
 
 .projects__item-img {
@@ -504,10 +501,13 @@ h2 {
 }
 
 .project__item-lazy-img {
-  position: relative;
+  position: absolute;
   max-height: 261px;
   width: 100%;
-  display: none;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  display: block;
 }
 
 .projects__item-button {
