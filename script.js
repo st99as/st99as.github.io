@@ -4,6 +4,23 @@ $('.icon-menu').click(function(){
     $('.logo__img').toggleClass('fix')
 })
 
+
+// if($(window).width() <= 765){
+//   $('.menu-list__link').click(function(){
+//     $('.icon-menu').removeClass('_active');
+//      $('.menu__list').removeClass('open');
+//      $('.logo__img').removeClass('fix')
+//   })
+// }
+
+
+  $('.menu-list__link').click(function(){
+    $('.icon-menu').removeClass('_active');
+     $('.menu__list').removeClass('open');
+     $('.logo__img').removeClass('fix')
+  })
+
+
 const anchors = document.querySelectorAll('a[href*="#"]')
 for (let anchor of anchors) {
   anchor.addEventListener('click', function (e) {
@@ -17,3 +34,4 @@ for (let anchor of anchors) {
     })
   })
 }
+
