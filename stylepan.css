@@ -1197,6 +1197,10 @@ a{
             transform: rotate(45deg);
     bottom: calc(50% - 1px);
   }
+  @media (max-width: 403px) {
+    .icon-menu {
+    top: 83px;
+    }
 }
 .menu-list__link {
   text-decoration: none;
